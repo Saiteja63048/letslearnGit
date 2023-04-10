@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(172, 172, 240);
+}
+
+p{
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 0, 183);
+    background-color: rgb(235, 229, 229);
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 700px;
+    text-decoration: underline;
+    /* align-content: center; */
+    /* margin-left: 462px; */
+
+}
+
+.Heading{
+    text-align: center;
+    color: chartreuse;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 600px;
+    align-content: center;
+    margin-left: 362px;
+}

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="JGit.css" rel="stylesheet">
 </head>
 <body>
     <div>
-        <h1>everything about git and github</h1>
+        <h1 class="Heading">everything about git and github</h1>
         <p>Git is a distributed version control system that allows you to track changes to files over time. GitHub is a web-based platform that provides a central location for hosting Git repositories, as well as additional collaboration features.
 
             Here are some key concepts of Git and GitHub:
@@ -154,6 +155,69 @@
                 
                 
                 </p>
+
+                <hr>
+                  
+                <br>
+                <br>
+
+                <h1>how to update code in github after updating in vsc</h1>
+
+                <br>
+                <br>
+
+
+                <p>To update code in GitHub after making changes in Visual Studio Code (VSC), you need to follow these steps:
+
+                    Open VSC and make the desired changes to your code.
+
+                    <br>
+                    <br>
+    
+                    
+                    Save your changes in VSC by clicking File > Save or pressing Ctrl+S on Windows/Linux or Cmd+S on macOS.
+                    
+                    Open the terminal in VSC by clicking Terminal > New Terminal or pressing Ctrl+Shift+~ on Windows/Linux or Cmd+Shift+~ on macOS.
+                    <br>
+                    <br>
+    
+                    In the terminal, navigate to the local repository directory where your code is located. You can use the cd command to change directories, for example:
+                    
+                    bash
+                    Copy code
+                    cd path/to/local/repository
+                    Use the git add command to stage your changes for committing. You can stage all changes in the repository by running git add . or stage specific files by running git add path/to/file.
+                    <br>
+                    <br>
+    
+                    Use the git commit command to create a new commit with your changes. For example:
+                    
+                    sql
+                    Copy code
+                    git commit -m "Updated code in file.js"
+                    Use the git push command to push your commit to the GitHub repository. For example:
+                    
+                    <br>
+                    <br>
+    
+                    css
+                    Copy code
+                    git push origin main
+                    This command pushes the changes to the main branch of the remote repository named origin. If you're working with a different branch, replace main with the name of the branch.
+                    
+                    <br>
+                    <br>
+    
+
+                    Enter your GitHub username and password if prompted.
+                    
+                    After completing these steps, your changes will be updated in the GitHub repository. You can check the repository's commit history and files to confirm that the changes have been applied.
+                    
+                    
+                    
+                    
+                    </p>
+
     </div>
 </body>
 </html>

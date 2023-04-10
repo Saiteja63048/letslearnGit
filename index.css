@@ -1,5 +1,6 @@
 *{
     justify-content: center;
+    text-align: center;
 }
 
 .Total{
@@ -8,4 +9,18 @@
 
 .Heading{
     text-align: center;
+    color: chartreuse;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 300px;
+    align-content: center;
+    margin-left: 462px;
+}
+
+p{
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
